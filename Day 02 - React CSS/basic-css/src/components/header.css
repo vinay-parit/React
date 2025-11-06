@@ -1,0 +1,15 @@
+.header-parent{
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.right-nav{
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+}
+
+.right-nav li{
+    list-style: none;
+}
