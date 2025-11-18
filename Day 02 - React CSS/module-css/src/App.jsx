@@ -1,6 +1,9 @@
+import Child from './components/Child'
 const App = () => {
   return (
-    <div>App</div>
+    <div>
+      <Child/>
+    </div>
   )
 }
 
