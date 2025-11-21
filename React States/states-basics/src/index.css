@@ -1,0 +1,59 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.og{
+  background-color: #222;
+  color: white;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.parent{
+  display: flex;
+  gap: 3rem;
+}
+
+.parent button{
+  padding: 0 2rem;
+  font-size: 2rem;
+}
+
+
+
+.str-parent{
+  background-color: #222;
+  color: white;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.str-child{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.str-child input{
+  width: 20rem;
+  height: 4rem;
+  font-size: 2rem;
+}
+
+.str-child h1{
+  font-size: 3rem;
+}
+
+.str-child button{
+  padding: 10px 20px;
+}
